@@ -11,7 +11,7 @@ form input:last-child:hover {
   background-color: gray;
 }
 
-li:nth-child(even) {
+section ol li:nth-child(even) {
   background-color: rgb(200,200,200);
 }
 
@@ -29,4 +29,80 @@ input[type="radio"] {
 }
 input[type="radio"]:checked {
   background-color: gray;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+nav ul li a {
+  display: inline-block;
+  padding: 20px;
+}
+header img {
+  float: left;
+  width: 42px;
+}
+
+header nav {
+  float: right;
+
+}
+
+header:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+body {
+  width: 900px;
+  margin: 0 auto;
+  font-family: "Trebuchet MS";
+  background-color: rgb(255, 255, 240);
+}
+.container {
+  display: flex;
+}
+section {
+  /*width: 700px;*/
+  display: inline-block;
+  /*display: flex;*/
+}
+aside {
+  /*width: 180px;*/
+  display: inline-block;
+  /*display: flex;*/
+  margin-right: 15px;
+  vertical-align: top;
+}
+
+h1 {
+  font-size: 36px;
+  font-weight: bold;
+}
+h2 {
+  font-size: 24px;
+}
+
+aside ul li {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+section ol li {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+input[type="text"], select {
+  display: block;
+}
+
+select {
+  margin: 15px;
+}
+
+input[type="text"], select, textarea {
+  width: 160px;
 }
