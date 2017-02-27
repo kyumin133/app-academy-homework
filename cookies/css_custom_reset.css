@@ -1,0 +1,19 @@
+html, head, title, body, ul, li, a, h2, h1, nav, header, aside, section, figure,
+figcaption, p, ol, form, label, br, input, select, option, textarea, footer {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+header, nav, aside, section, footer {
+  display: block;
+}
+body {
+  line-height: 1.5;
+}
+ol, ul {
+  list-style: none;
+}

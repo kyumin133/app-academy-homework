@@ -1,0 +1,63 @@
+# Logfile created on 2017-02-15 21:24:48 -0800 by logger.rb/56438
+[2017-02-15 21:24:48 -0800 Kyumins-MacBook-Pro.local (22455)] INFO : Starting the New Relic agent in "development" environment.
+[2017-02-15 21:24:48 -0800 Kyumins-MacBook-Pro.local (22455)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2017-02-15 21:24:48 -0800 Kyumins-MacBook-Pro.local (22455)] WARN : No configuration file found. Working directory = /Users/kyumin133/Downloads/homeworks/W4/W4D4/99cats
+[2017-02-15 21:24:48 -0800 Kyumins-MacBook-Pro.local (22455)] WARN : Looked in these locations (based on defaults): /Users/kyumin133/Downloads/homeworks/W4/W4D4/99cats/config/newrelic.yml, /Users/kyumin133/Downloads/homeworks/W4/W4D4/99cats/newrelic.yml, /Users/kyumin133/Downloads/homeworks/W4/W4D4/99cats/config/newrelic.yml, /Users/kyumin133/Downloads/homeworks/W4/W4D4/99cats/newrelic.yml, /Users/kyumin133/.newrelic/newrelic.yml, /Users/kyumin133/newrelic.yml
+[2017-02-15 21:24:48 -0800 Kyumins-MacBook-Pro.local (22455)] INFO : Environment: development
+[2017-02-15 21:24:48 -0800 Kyumins-MacBook-Pro.local (22455)] INFO : Dispatcher: webrick
+[2017-02-15 21:24:48 -0800 Kyumins-MacBook-Pro.local (22455)] INFO : Application: development
+[2017-02-15 21:24:48 -0800 Kyumins-MacBook-Pro.local (22455)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2017-02-15 21:24:48 -0800 Kyumins-MacBook-Pro.local (22455)] INFO : Installing ActiveJob instrumentation
+[2017-02-15 21:24:48 -0800 Kyumins-MacBook-Pro.local (22455)] INFO : Installing ActiveRecord 4 instrumentation
+[2017-02-15 21:24:48 -0800 Kyumins-MacBook-Pro.local (22455)] INFO : Installing Net instrumentation
+[2017-02-15 21:24:48 -0800 Kyumins-MacBook-Pro.local (22455)] INFO : Installing deferred Rack::Builder instrumentation
+[2017-02-15 21:24:48 -0800 Kyumins-MacBook-Pro.local (22455)] INFO : Installing Rack::Builder middleware instrumentation
+[2017-02-15 21:24:48 -0800 Kyumins-MacBook-Pro.local (22455)] INFO : Installing Rails 3+ middleware instrumentation
+[2017-02-15 21:24:48 -0800 Kyumins-MacBook-Pro.local (22455)] INFO : Installing Rails 4 Controller instrumentation
+[2017-02-15 21:24:48 -0800 Kyumins-MacBook-Pro.local (22455)] INFO : Installing Rails 4 view instrumentation
+[2017-02-15 21:24:48 -0800 Kyumins-MacBook-Pro.local (22455)] INFO : Installing Rails 4 Error instrumentation
+[2017-02-15 21:24:48 -0800 Kyumins-MacBook-Pro.local (22455)] INFO : Finished instrumentation
+[2017-02-15 21:24:48 -0800 Kyumins-MacBook-Pro.local (22455)] INFO : Doing deferred dependency-detection before Rack startup
+[2017-02-15 21:24:53 -0800 Kyumins-MacBook-Pro.local (22455)] ERROR : Invalid license key, please contact support@newrelic.com
+[2017-02-15 21:24:53 -0800 Kyumins-MacBook-Pro.local (22455)] ERROR : Visit NewRelic.com to obtain a valid license key, or to upgrade your account.
+[2017-02-15 21:32:58 -0800 Kyumins-MacBook-Pro.local (22798)] INFO : Starting the New Relic agent in "development" environment.
+[2017-02-15 21:32:58 -0800 Kyumins-MacBook-Pro.local (22798)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2017-02-15 21:32:58 -0800 Kyumins-MacBook-Pro.local (22798)] WARN : No configuration file found. Working directory = /Users/kyumin133/Downloads/homeworks/W4/W4D4/99cats
+[2017-02-15 21:32:58 -0800 Kyumins-MacBook-Pro.local (22798)] WARN : Looked in these locations (based on defaults): /Users/kyumin133/Downloads/homeworks/W4/W4D4/99cats/config/newrelic.yml, /Users/kyumin133/Downloads/homeworks/W4/W4D4/99cats/newrelic.yml, /Users/kyumin133/Downloads/homeworks/W4/W4D4/99cats/config/newrelic.yml, /Users/kyumin133/Downloads/homeworks/W4/W4D4/99cats/newrelic.yml, /Users/kyumin133/.newrelic/newrelic.yml, /Users/kyumin133/newrelic.yml
+[2017-02-15 21:32:58 -0800 Kyumins-MacBook-Pro.local (22798)] INFO : Environment: development
+[2017-02-15 21:32:58 -0800 Kyumins-MacBook-Pro.local (22798)] INFO : No known dispatcher detected.
+[2017-02-15 21:32:58 -0800 Kyumins-MacBook-Pro.local (22798)] INFO : Application: development
+[2017-02-15 21:32:58 -0800 Kyumins-MacBook-Pro.local (22798)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2017-02-15 21:32:58 -0800 Kyumins-MacBook-Pro.local (22798)] INFO : Installing ActiveJob instrumentation
+[2017-02-15 21:32:58 -0800 Kyumins-MacBook-Pro.local (22798)] INFO : Installing ActiveRecord 4 instrumentation
+[2017-02-15 21:32:58 -0800 Kyumins-MacBook-Pro.local (22798)] INFO : Installing Net instrumentation
+[2017-02-15 21:32:58 -0800 Kyumins-MacBook-Pro.local (22798)] INFO : Installing deferred Rack::Builder instrumentation
+[2017-02-15 21:32:58 -0800 Kyumins-MacBook-Pro.local (22798)] INFO : Installing Rack::Builder middleware instrumentation
+[2017-02-15 21:32:58 -0800 Kyumins-MacBook-Pro.local (22798)] INFO : Installing Rails 3+ middleware instrumentation
+[2017-02-15 21:32:58 -0800 Kyumins-MacBook-Pro.local (22798)] INFO : Installing Rails 4 Controller instrumentation
+[2017-02-15 21:32:58 -0800 Kyumins-MacBook-Pro.local (22798)] INFO : Installing Rails 4 view instrumentation
+[2017-02-15 21:32:58 -0800 Kyumins-MacBook-Pro.local (22798)] INFO : Installing Rails 4 Error instrumentation
+[2017-02-15 21:32:58 -0800 Kyumins-MacBook-Pro.local (22798)] INFO : Finished instrumentation
+[2017-02-15 21:43:55 -0800 Kyumins-MacBook-Pro.local (22455)] INFO : Starting Agent shutdown
+[2017-02-15 21:44:05 -0800 Kyumins-MacBook-Pro.local (23107)] INFO : Starting the New Relic agent in "development" environment.
+[2017-02-15 21:44:05 -0800 Kyumins-MacBook-Pro.local (23107)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2017-02-15 21:44:05 -0800 Kyumins-MacBook-Pro.local (23107)] WARN : No configuration file found. Working directory = /Users/kyumin133/Downloads/homeworks/W4/W4D4/99cats
+[2017-02-15 21:44:05 -0800 Kyumins-MacBook-Pro.local (23107)] WARN : Looked in these locations (based on defaults): /Users/kyumin133/Downloads/homeworks/W4/W4D4/99cats/config/newrelic.yml, /Users/kyumin133/Downloads/homeworks/W4/W4D4/99cats/newrelic.yml, /Users/kyumin133/Downloads/homeworks/W4/W4D4/99cats/config/newrelic.yml, /Users/kyumin133/Downloads/homeworks/W4/W4D4/99cats/newrelic.yml, /Users/kyumin133/.newrelic/newrelic.yml, /Users/kyumin133/newrelic.yml
+[2017-02-15 21:44:05 -0800 Kyumins-MacBook-Pro.local (23107)] INFO : Environment: development
+[2017-02-15 21:44:05 -0800 Kyumins-MacBook-Pro.local (23107)] INFO : Dispatcher: webrick
+[2017-02-15 21:44:05 -0800 Kyumins-MacBook-Pro.local (23107)] INFO : Application: development
+[2017-02-15 21:44:05 -0800 Kyumins-MacBook-Pro.local (23107)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2017-02-15 21:44:05 -0800 Kyumins-MacBook-Pro.local (23107)] INFO : Installing ActiveJob instrumentation
+[2017-02-15 21:44:05 -0800 Kyumins-MacBook-Pro.local (23107)] INFO : Installing ActiveRecord 4 instrumentation
+[2017-02-15 21:44:05 -0800 Kyumins-MacBook-Pro.local (23107)] INFO : Installing Net instrumentation
+[2017-02-15 21:44:05 -0800 Kyumins-MacBook-Pro.local (23107)] INFO : Installing deferred Rack::Builder instrumentation
+[2017-02-15 21:44:05 -0800 Kyumins-MacBook-Pro.local (23107)] INFO : Installing Rack::Builder middleware instrumentation
+[2017-02-15 21:44:05 -0800 Kyumins-MacBook-Pro.local (23107)] INFO : Installing Rails 3+ middleware instrumentation
+[2017-02-15 21:44:05 -0800 Kyumins-MacBook-Pro.local (23107)] INFO : Installing Rails 4 Controller instrumentation
+[2017-02-15 21:44:05 -0800 Kyumins-MacBook-Pro.local (23107)] INFO : Installing Rails 4 view instrumentation
+[2017-02-15 21:44:05 -0800 Kyumins-MacBook-Pro.local (23107)] INFO : Installing Rails 4 Error instrumentation
+[2017-02-15 21:44:05 -0800 Kyumins-MacBook-Pro.local (23107)] INFO : Finished instrumentation
+[2017-02-15 21:44:06 -0800 Kyumins-MacBook-Pro.local (23107)] INFO : Doing deferred dependency-detection before Rack startup
+[2017-02-15 21:44:10 -0800 Kyumins-MacBook-Pro.local (23107)] ERROR : Invalid license key, please contact support@newrelic.com
+[2017-02-15 21:44:10 -0800 Kyumins-MacBook-Pro.local (23107)] ERROR : Visit NewRelic.com to obtain a valid license key, or to upgrade your account.
+[2017-02-16 09:27:16 -0800 Kyumins-MacBook-Pro.local (23107)] INFO : Starting Agent shutdown
