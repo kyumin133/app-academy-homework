@@ -1,0 +1,256 @@
+body {
+  font-family: "Tinos";
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: white;
+  padding: 5px 0;
+  width: 100%;
+  font-family: "Arimo";
+}
+
+nav a {
+  text-decoration: none;
+  color: rgb(125, 125, 125);
+}
+
+.logo-img {
+  height: 30px;
+  margin-right: 5%;
+}
+
+.logo-div {
+  height: 50px;
+  margin-left: 0%;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.logo-div a {
+  color: #f28500;
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 10%;
+  /*background-color: cornflowerblue;*/
+  list-style: none;
+  margin-right: 5%;
+  font-size: 14px;
+}
+
+.main {
+  position: relative;
+  width: 100%;
+}
+.main img {
+  width: 100%;
+  position: relative;
+}
+
+.main-text {
+  position: absolute;
+  top: 40%;
+  left: 35%;
+  width: 30%;
+  text-align: center;
+  background-color: rgba(245, 245, 245, 0.5);
+  padding: 0px;
+  box-shadow: 0px 0px 25px 25px rgba(245, 245, 245, 0.5);
+}
+
+.main-text h2 {
+  font-size: 28px;
+}
+
+.main-text h3 {
+  font-size: 14px;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+}
+
+footer ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  /*background-color: green;*/
+  padding-left: 0;
+}
+
+footer li {
+  margin: 10px;
+  text-align: center;
+  /*background-color: orange;*/
+}
+
+footer a {
+  text-decoration: none;
+  color: black;
+}
+
+footer a:hover {
+  font-weight: 700;
+}
+
+
+.index {
+  display: flex;
+  height: 90vh;
+}
+.index nav {
+  width: 10%;
+  background-color: rgb(240, 240, 240);
+  /*height: 100%;*/
+  /*border-right: 1px solid black;*/
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding-top: 20px;
+}
+
+.index > div {
+  height: 100%;
+}
+.index nav img {
+  width: 50px;
+  filter: brightness(0.9);
+}
+
+.index nav img:hover {
+  filter: brightness(1.0);
+  transform: scale3d(1.05, 1.05, 1.05);
+  cursor: pointer;
+}
+
+/*.fa-plus {
+  font-size: 50px;
+}*/
+nav span {
+  height: 50px;
+  width: 50px;
+  border-radius: 30px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 36px;
+  background-color: white;
+  margin: 20px 0;
+  padding: 5px;
+  filter: brightness(0.8);
+}
+
+nav span:hover {
+  cursor: pointer;
+  /*background-color: rgb(150, 150, 150);*/
+  filter: brightness(1.0);
+  transform: scale3d(1.05, 1.05, 1.05);
+}
+
+.nav-buttons {
+  margin-top: 30px;
+  /*height: 30vh;*/
+  /*background-color: cornflowerblue;*/
+}
+
+.index-footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+}
+
+.index-footer > span {
+  /*background-color: blue;*/
+  padding-top: 10px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.lists {
+  /*background-colosr: cornflowerblue;*/
+  width: 30%;
+  padding-left: 2%;
+  border-right: 1px solid rgb(240, 240, 240);
+  overflow-y: auto;
+}
+
+.lists h1 {
+  /*font-variant: small-caps;*/
+  /*text-transform: uppercase;*/
+  border-bottom: 1px solid black;
+  width: 90%;
+  padding-bottom: 20px;
+  font-size: 28px;
+  font-family: "Arimo";
+}
+
+.lists-ul {
+  /*background-color: pink;*/
+  padding: 0;
+  width: 90%;
+  list-style: none;
+}
+
+.lists-ul li {
+  font-size: 16px;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-bottom: 1px solid rgb(200, 200, 200);
+  padding-left: 5%;
+}
+
+.lists-ul li:hover {
+  font-weight: 700;
+  cursor: pointer;
+  background-color: rgb(240, 240, 240);
+}
+
+.list-details {
+  width: 60%;
+  /*padding: 10px;*/
+  padding-left: 2%;
+  /*background-color: pink;*/
+}
+
+.list-details h1 {
+  font-size: 28px;
+  color: #f28500;
+  font-family: "Arimo";
+}
+
+.list-details ul {
+  list-style: none;
+  margin-left: 0;
+  padding-left: 2%;
+}
+.list-details li {
+  padding-top: 20px;
+  font-size: 20px;
+}
+
+.quotes span {
+  color: rgb(150, 150, 150);
+  font-style: italic;
+}
+
+.complete {
+  color: green;
+  text-decoration: line-through;
+  font-style: italic;
+  opacity: 0.5;
+}
